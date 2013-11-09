@@ -1,0 +1,37 @@
+/*GENERIC STYLES*/
+
+.box {
+	display: block;	
+}
+
+.display-hidden {
+	display: none;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.button {
+	display: block;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+.auto-margin-container {
+	margin: 0 auto;
+}
+
+.min-resolution {
+	width: 900px;
+}
+
+.menu {
+	display: block;
+	list-style: none;
+}
+
+.menu > .menu-item {
+	display: block;
+	float: left;
+}

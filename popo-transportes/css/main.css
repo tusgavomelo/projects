@@ -1,0 +1,287 @@
+/*MAIN STYLES*/
+
+.main-container {
+	background: #FFFFFF;
+}
+
+.main-header {
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #375870;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #375870;
+	-webkit-box-shadow: 0 0 5px;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+	
+}
+
+.main-logo-container {
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+}
+
+.main-logo {
+	cursor: pointer;
+	position: absolute;
+	background-image: url("../images/logo.png");
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-khtml-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	height: 35px;
+	width: 200px;
+	margin-top: 5px;
+}
+
+.main-menu-container {
+	float: right;
+	height: 100%;
+}
+
+.main-menu > .menu-item{
+ 	line-height: 44px;
+	text-align: center;
+	border-right: 1px solid #bbbbbb;
+	padding: 0 .25em 0 0;
+	transition: padding-top 0.10s, background 0.10s;
+}
+
+.menu-item > a {
+	display: block;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	padding-left: 35px;
+	padding-right: 35px;
+	color: #22262E;
+	letter-spacing: 1px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.menu-item:last-child  { border: 0; }
+
+.menu-item:hover{
+	background: #C2E0FF;
+	border-bottom: 1px solid #375870;
+	border-bottom-width: 1.3px;
+	border-bottom-style: solid;
+	border-bottom-color: #375870;
+	-webkit-box-shadow: 0 0 4p;
+	box-shadow: 0px 1px 1px #000000;
+	padding-top: 6px;
+}
+
+.main-banner-fullscreen{
+	width: 100%;
+	height: 250px;
+}
+
+.main-container-box-title{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 2px;
+	margin: 0 auto;
+	width: 295px;
+	position: relative;
+}
+
+.msg-title{
+	font-size: 30px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.msg-subtitle{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	color: #ffffff;
+	text-shadow: black 2px 2px 2px;
+	font-family: 'Lobster', cursive;
+}
+
+.main-contact-bar-fullscreen{
+	width: 100%;
+	height: 30px;
+	transition: background 0.5s;
+	transition: gradient 0.5s;
+	transition: linear-gradient 0.5s;
+}
+
+.contact-bar{
+	background-color: #DFFF7F;
+	border: 1px solid #61C419;
+	cursor: pointer;
+
+}
+
+.contact-bar:hover{
+	background-color: #5BE540;
+	border: 1px solid #DFFF7F;
+	cursor: pointer;
+}
+
+.main-contact-msg{
+	margin: 0 auto;
+	line-height: 30px;
+	display: block;
+	width: 460px;
+
+}
+
+.main-content {
+	min-height: 500px;
+	margin-top: 70px;
+}
+
+.main-content-title{
+	letter-spacing: 0.20em;
+	font-weight: 700;
+	font-size: 2.4em;
+	text-align: center;
+}
+
+.main-content-byline{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #6F6F6F;
+	text-align: center;
+	line-height: 50px;
+}
+
+.separator{
+	height: 8px;
+	border: 0;
+	box-shadow: inset 0 8px 8px -8px #CCC;
+	
+}
+
+.text-content{
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+.area-form{
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	border-radius: 2px;
+}
+
+.contact-info{
+	float: right;
+	line-height: 25px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+.form-line{
+	clear:both;
+	line-height: 30px;
+}
+
+.form .text-field{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 300px;
+    color: #181818;
+}
+
+.form .submit{
+    margin:10px 55px 10px 0;
+    font-weight: bold;
+    line-height: 1;
+    padding: 6px 10px;
+    cursor:pointer;
+    color: #000000;
+    text-align: center;
+    background: rgb(252,255,244); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	transition: background 1s;
+}
+
+.form .submit:hover{
+	background: #e9e9ce;
+}
+
+.main-footer{
+	margin-top: 50px;
+}
+
+
+.contact-us {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #6F6F6F;
+	background-color: #0F0F0F;
+}
+
+.footer-title{
+	letter-spacing: 0.2em;
+	font-weight: 700;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.byline{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	color: #6F6F6F;
+}
+
+.copyright{
+	height: 60px;
+	background-color:#202020;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #6F6F6F;
+}
+
+.copyright .a:link , .contact-us .a:link{
+	text-decoration: none;
+	color: #909090;
+	font-weight: bold;
+}
+
+.copyright .a:hover, .contact-us .a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
